@@ -1,0 +1,54 @@
+/*File taken from Lab 9 and then modified
+
+/*	****************************************
+	Base styles
+	**************************************** */
+html, body {
+    margin: 0; 
+    height: 100%;
+    color:white; 
+}
+
+
+
+/*	****************************************
+	Persistent Navigation
+	**************************************** */
+.main {
+	top: 0; 
+	z-index: 1000; 
+	width: 100%; 
+	background-color: green; 
+}
+
+.main a{
+	display: block; 
+	padding: 10px;
+	border: 1px solid #333333;
+}
+.main ul {
+	margin: 20px;
+	padding-left: 200px;
+	list-style-type: none;
+	display:flex;
+}
+
+.main li {
+	display:inline-block;
+	width: 50%;
+
+}
+.main a:hover { color: red; }
+
+/*	****************************************
+	Long-scrolly sections
+	**************************************** */
+section {
+    min-height: 100%; 
+    padding-top: 75px; 
+    padding-bottom: 25px; 
+    text-align: center; 
+}
+
+
+section:nth-child(even) {background-color: red;  }
