@@ -1,0 +1,170 @@
+
+/* SMACSS Style
+
+/*	*************************************
+	Base
+	************************************* */
+html, body {
+    margin: 50px;
+    height: 100%;
+    font-family: 'Prata', sans-serif;
+}
+
+
+
+body{
+	background: brown;
+	line-height: 1.5;
+	color: white;
+}
+
+section {
+    min-height: 100%; 
+    padding-top: 75px; 
+    padding-bottom: 25px; 
+    text-align: left; 
+}
+
+
+
+h1, h2{
+	margin-bottom: 50px;
+	text-align: center;
+	color: white;
+	background-color: black; 
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+img {
+	width: 75%;
+	height: 75%
+}
+
+
+
+form{
+	margin-left: 50px;
+}
+
+textarea{
+	margin-left: 50px;
+}
+
+/*	****************************************
+	Modules (reusable classes)
+	**************************************** */
+.main {
+	top: 0;
+	z-index: 1000; 
+	width: 100%; 
+	background-color:green;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.main a{
+	display: block; 
+	padding: 10px;
+	border: 1px solid #333333;
+}
+
+
+.main ul {
+	margin: 0;
+	padding-left: 0;
+	list-style-type: none;
+	display: flex;
+	
+}
+
+.main li {
+	display:inline-block;
+	width: 50%;
+
+}
+
+.main a:hover { color: red; }
+
+
+.container {
+	margin: 0 auto;
+	width: 95%;
+	max-width: 960px; 
+}
+
+.content {
+	text-align: left;
+	overflow: auto;
+	display: inline-block;
+}
+
+
+
+.z {
+	display: inline-block;
+	width: 47%;
+	height: 47%;
+	margin: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.f{
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+
+
+
+
+
+/* *****************
+   Layout styles
+   ***************** */
+
+
+
+#z1, #z2 {
+	margin-bottom:100px;
+}
+
+
+#fp1, #fp2, #fp3, #fp4{
+	width: 70%;
+	text-align: left;
+	vertical-align: top;
+}
+
+#second img {
+	width: 25%;
+	height: 25%;
+}
+
+#portfolio{
+	vertical-align: 50px;
+}
+
+#lab6{
+	text-align:right;
+}
+
+#lab7{
+	text-align:right;
+}
+
+#project{
+	text-align:right;
+}
+
+/* *****************
+   State styles
+   ***************** */
+
+.active {
+	background-color: black;
+ 	color: white;
+}
+
+
+
